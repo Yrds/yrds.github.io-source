@@ -1,0 +1,97 @@
+body{
+    max-width:100%;
+    min-width: 70%;
+    width: 70%;
+    margin:auto;
+    padding: 10px;
+    background: #1d1f21;
+}
+
+.bar {
+    text-align: center;
+    color: #c5c8c6;
+
+}
+
+.post {
+    font-family: 'Open Sans', sans-serif;
+    color: #c5c8c6;
+    background: #282a2e;
+    padding: 10px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links > li{
+    display: inline;
+
+}
+
+.title {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 10px;
+
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.title-wrapper h2 {
+    flex-grow: 1;
+}
+.date {
+    font-size: 0.8rem;
+}
+
+ul.post-list li.post-item {
+  color: white;
+  list-style: none;
+}
+
+ul.post-list div.post-title {
+  font-size: 2rem;
+}
+
+ul.post-list div.post-date {
+  text-align: right;
+}
+
+
+li.post-title a.post-link {
+
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+li.post-title a.post-link:hover {
+  color: lightgrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.post-title a.post-link:visited {
+  color: lightgrey;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.post-title a.post-link:active {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+div.post-title a.post-link:link {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
